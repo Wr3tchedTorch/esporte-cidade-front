@@ -1,4 +1,5 @@
 import React from 'react';
+import AthleteForm from './components/AthleteForm';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload aaaaaaaaa.
         </p>
       </header>
+      <AthleteForm />
     </div>
   );
 }
